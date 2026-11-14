@@ -2,7 +2,7 @@
 
 Passwortgeschütztes Statistikportal des Tuberkulose-Zentrums Hamburg zur TB-Surveillance 2017–2025 (verschlüsselte Single-File-HTML-Seiten, AES-256-GCM).
 
-**Aktuelle Version: v1.0** (14.11.2026)
+**Aktuelle Version: v1.1** (14.11.2026)
 
 ## Dateien
 
@@ -13,9 +13,11 @@ Passwortgeschütztes Statistikportal des Tuberkulose-Zentrums Hamburg zur TB-Sur
 ## Versionierung
 
 - Schema `vHAUPT.NEBEN` wie im Repository `tbstat-dashboard`: Jede inhaltliche Änderung erhöht die Nebennummer (v1.0, v1.1, v1.2 …). Die Hauptnummer steigt nur bei grundlegendem Umbau.
+- Die Version steht auf der Anmeldeseite jeder Datei (unten) und als Git-Tag `vX.Y` am jeweiligen Commit.
 - Jede Änderung erhält einen Eintrag im Changelog und eine Commit-Nachricht der Form `Portal vX.Y: Kurzbeschreibung`.
 - Dunkle und helle Fassung werden immer gemeinsam geändert und tragen dieselbe Versionsnummer.
 
 ## Changelog
 
 - v1.0 (14.11.2026): Versionierung eingeführt. Ausgangsstand mit den Seiten `index`, `tbhhstat`, `tbhhmap`, `tbhhrki` und `tbhh2025` in dunkler und heller Fassung.
+- v1.1 (14.11.2026): Versionsnummer auf der Anmeldeseite aller zehn Dateien (dunkle und helle Fassung) ergänzt. Git-Tags eingeführt.
